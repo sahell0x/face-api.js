@@ -74,7 +74,7 @@ const App = () => {
             console.log(topExpression);
             setExpression(topExpression[0]); // Set the expression name with the highest confidence
           }
-        }, 100);
+        }, 1000);
       });
     };
 
